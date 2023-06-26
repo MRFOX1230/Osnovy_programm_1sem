@@ -1,0 +1,840 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1074</width>
+    <height>553</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="whatsThis">
+   <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLineEdit" name="lineEdit_name">
+    <property name="geometry">
+     <rect>
+      <x>91</x>
+      <y>61</y>
+      <width>291</width>
+      <height>42</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI Variable Small Semibol</family>
+      <pointsize>16</pointsize>
+      <weight>7</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 63 16pt &quot;Segoe UI Variable Small Semibol&quot;;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_name">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>60</y>
+      <width>71</width>
+      <height>33</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI Variable Text Semibold</family>
+      <pointsize>16</pointsize>
+      <weight>7</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 81 16pt &quot;Rockwell Extra Bold&quot;;
+font: 63 16pt &quot;Segoe UI Variable Text Semibold&quot;;
+font: 8pt &quot;Snap ITC&quot;;
+font: 16pt &quot;MS Shell Dlg 2&quot;;
+font: 16pt &quot;Pristina&quot;;
+font: 75 16pt &quot;Script MT Bold&quot;;
+font: 75 16pt &quot;MS Shell Dlg 2&quot;;
+font: 63 16pt &quot;Segoe UI Variable Text Semibold&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Имя:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_str">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>140</y>
+      <width>141</width>
+      <height>39</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI Variable Small Semibol</family>
+      <pointsize>16</pointsize>
+      <weight>7</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 63 16pt &quot;Segoe UI Variable Small Semibol&quot;;</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_dex">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>185</y>
+      <width>141</width>
+      <height>39</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI Variable Small Semibol</family>
+      <pointsize>16</pointsize>
+      <weight>7</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 63 16pt &quot;Segoe UI Variable Small Semibol&quot;;</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_int">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>230</y>
+      <width>141</width>
+      <height>39</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI Variable Small Semibol</family>
+      <pointsize>16</pointsize>
+      <weight>7</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 63 16pt &quot;Segoe UI Variable Small Semibol&quot;;</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_luck">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>275</y>
+      <width>141</width>
+      <height>39</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI Variable Small Semibol</family>
+      <pointsize>16</pointsize>
+      <weight>7</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 63 16pt &quot;Segoe UI Variable Small Semibol&quot;;</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_score_lite">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>320</y>
+      <width>71</width>
+      <height>39</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI Variable Small Semibol</family>
+      <pointsize>16</pointsize>
+      <weight>7</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 63 16pt &quot;Segoe UI Variable Small Semibol&quot;;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_score_lite">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>320</y>
+      <width>221</width>
+      <height>33</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI Variable Small Semibol</family>
+      <pointsize>16</pointsize>
+      <weight>7</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 63 16pt &quot;Segoe UI Variable Small Semibol&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Очков осталось:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_class">
+    <property name="geometry">
+     <rect>
+      <x>441</x>
+      <y>241</y>
+      <width>81</width>
+      <height>36</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI Variable Small Semibol</family>
+      <pointsize>16</pointsize>
+      <weight>7</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 63 16pt &quot;Segoe UI Variable Small Semibol&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Класс:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_class_value">
+    <property name="geometry">
+     <rect>
+      <x>529</x>
+      <y>241</y>
+      <width>241</width>
+      <height>36</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI Variable Small Semibol</family>
+      <pointsize>16</pointsize>
+      <weight>7</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 63 16pt &quot;Segoe UI Variable Small Semibol&quot;;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_clear">
+    <property name="geometry">
+     <rect>
+      <x>241</x>
+      <y>421</y>
+      <width>132</width>
+      <height>45</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI Variable Small Semibol</family>
+      <pointsize>16</pointsize>
+      <weight>7</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 63 16pt &quot;Segoe UI Variable Small Semibol&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Очистить</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_creat">
+    <property name="geometry">
+     <rect>
+      <x>121</x>
+      <y>421</y>
+      <width>114</width>
+      <height>45</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI Variable Small Semibol</family>
+      <pointsize>16</pointsize>
+      <weight>7</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 63 16pt &quot;Segoe UI Variable Small Semibol&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Создать</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="image">
+    <property name="geometry">
+     <rect>
+      <x>790</x>
+      <y>150</y>
+      <width>240</width>
+      <height>320</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>441</x>
+      <y>301</y>
+      <width>191</width>
+      <height>164</height>
+     </rect>
+    </property>
+    <layout class="QFormLayout" name="formLayout">
+     <item row="0" column="0">
+      <widget class="QLabel" name="label_hp">
+       <property name="font">
+        <font>
+         <family>Segoe UI Variable Small Semibol</family>
+         <pointsize>16</pointsize>
+         <weight>7</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 63 16pt &quot;Segoe UI Variable Small Semibol&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Здоровье:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLabel" name="label_hp_value">
+       <property name="font">
+        <font>
+         <family>Segoe UI Variable Small Semibol</family>
+         <pointsize>16</pointsize>
+         <weight>7</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-color: qconicalgradient(cx:0.5, cy:0.5, angle:0, stop:0 rgba(255, 255, 255, 255), stop:0.373979 rgba(255, 255, 255, 255), stop:0.373991 rgba(33, 30, 255, 255), stop:0.624018 rgba(33, 30, 255, 255), stop:0.624043 rgba(255, 0, 0, 255), stop:1 rgba(255, 0, 0, 255));
+font: 63 16pt &quot;Segoe UI Variable Small Semibol&quot;;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label_mp">
+       <property name="font">
+        <font>
+         <family>Segoe UI Variable Small Semibol</family>
+         <pointsize>16</pointsize>
+         <weight>7</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 63 16pt &quot;Segoe UI Variable Small Semibol&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Мана:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLabel" name="label_mp_value">
+       <property name="font">
+        <font>
+         <family>Segoe UI Variable Small Semibol</family>
+         <pointsize>16</pointsize>
+         <weight>7</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 63 16pt &quot;Segoe UI Variable Small Semibol&quot;;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="label_atk">
+       <property name="font">
+        <font>
+         <family>Segoe UI Variable Small Semibol</family>
+         <pointsize>16</pointsize>
+         <weight>7</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 63 16pt &quot;Segoe UI Variable Small Semibol&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Атака:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLabel" name="label_atk_value">
+       <property name="font">
+        <font>
+         <family>Segoe UI Variable Small Semibol</family>
+         <pointsize>16</pointsize>
+         <weight>7</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 63 16pt &quot;Segoe UI Variable Small Semibol&quot;;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="label_def">
+       <property name="font">
+        <font>
+         <family>Segoe UI Variable Small Semibol</family>
+         <pointsize>16</pointsize>
+         <weight>7</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 63 16pt &quot;Segoe UI Variable Small Semibol&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Защита:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QLabel" name="label_def_value">
+       <property name="font">
+        <font>
+         <family>Segoe UI Variable Small Semibol</family>
+         <pointsize>16</pointsize>
+         <weight>7</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 63 16pt &quot;Segoe UI Variable Small Semibol&quot;;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLabel" name="label_hello">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>61</y>
+      <width>591</width>
+      <height>36</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 63 16pt &quot;Segoe UI Variable Small Semibol&quot;;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>370</y>
+      <width>372</width>
+      <height>44</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <widget class="QLabel" name="label_sex">
+       <property name="font">
+        <font>
+         <family>Segoe UI Variable Small Semibol</family>
+         <pointsize>16</pointsize>
+         <weight>7</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 63 16pt &quot;Segoe UI Variable Small Semibol&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Пол:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QRadioButton" name="radioButton_sex_m">
+         <property name="font">
+          <font>
+           <family>Segoe UI Variable Small Semibol</family>
+           <pointsize>16</pointsize>
+           <weight>7</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 63 16pt &quot;Segoe UI Variable Small Semibol&quot;;</string>
+         </property>
+         <property name="text">
+          <string>Мужской</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="radioButton_sex_f">
+         <property name="font">
+          <font>
+           <family>Segoe UI Variable Small Semibol</family>
+           <pointsize>16</pointsize>
+           <weight>7</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 63 16pt &quot;Segoe UI Variable Small Semibol&quot;;</string>
+         </property>
+         <property name="text">
+          <string>Женский</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>140</y>
+      <width>171</width>
+      <height>38</height>
+     </rect>
+    </property>
+    <layout class="QFormLayout" name="formLayout_2">
+     <item row="0" column="0">
+      <widget class="QLabel" name="label_str">
+       <property name="palette">
+        <palette>
+         <active>
+          <colorrole role="WindowText">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>0</red>
+             <green>0</green>
+             <blue>0</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </active>
+         <inactive>
+          <colorrole role="WindowText">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>0</red>
+             <green>0</green>
+             <blue>0</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </inactive>
+         <disabled>
+          <colorrole role="WindowText">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>120</red>
+             <green>120</green>
+             <blue>120</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </disabled>
+        </palette>
+       </property>
+       <property name="font">
+        <font>
+         <family>Segoe UI Variable Small Semibol</family>
+         <pointsize>16</pointsize>
+         <weight>7</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 63 16pt &quot;Segoe UI Variable Small Semibol&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Сила:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLabel" name="label_stroch">
+       <property name="font">
+        <font>
+         <family>Segoe UI Variable Small Semibol</family>
+         <pointsize>16</pointsize>
+         <weight>7</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 63 16pt &quot;Segoe UI Variable Small Semibol&quot;;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>185</y>
+      <width>201</width>
+      <height>38</height>
+     </rect>
+    </property>
+    <layout class="QFormLayout" name="formLayout_3">
+     <item row="0" column="0">
+      <widget class="QLabel" name="label_dex">
+       <property name="font">
+        <font>
+         <family>Segoe UI Variable Small Semibol</family>
+         <pointsize>16</pointsize>
+         <weight>7</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 63 16pt &quot;Segoe UI Variable Small Semibol&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Ловкость:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLabel" name="label_dexoch">
+       <property name="font">
+        <font>
+         <family>Segoe UI Variable Small Semibol</family>
+         <pointsize>16</pointsize>
+         <weight>7</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 63 16pt &quot;Segoe UI Variable Small Semibol&quot;;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>230</y>
+      <width>201</width>
+      <height>38</height>
+     </rect>
+    </property>
+    <layout class="QFormLayout" name="formLayout_4">
+     <item row="0" column="0">
+      <widget class="QLabel" name="label_int">
+       <property name="font">
+        <font>
+         <family>Segoe UI Variable Small Semibol</family>
+         <pointsize>16</pointsize>
+         <weight>7</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 63 16pt &quot;Segoe UI Variable Small Semibol&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Интеллект:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLabel" name="label_intoch">
+       <property name="font">
+        <font>
+         <family>Segoe UI Variable Small Semibol</family>
+         <pointsize>16</pointsize>
+         <weight>7</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 63 16pt &quot;Segoe UI Variable Small Semibol&quot;;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>275</y>
+      <width>171</width>
+      <height>38</height>
+     </rect>
+    </property>
+    <layout class="QFormLayout" name="formLayout_5">
+     <item row="0" column="0">
+      <widget class="QLabel" name="label_luck">
+       <property name="font">
+        <font>
+         <family>Segoe UI Variable Small Semibol</family>
+         <pointsize>16</pointsize>
+         <weight>7</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 63 16pt &quot;Segoe UI Variable Small Semibol&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Удача:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLabel" name="label_luckoch">
+       <property name="font">
+        <font>
+         <family>Segoe UI Variable Small Semibol</family>
+         <pointsize>16</pointsize>
+         <weight>7</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 63 16pt &quot;Segoe UI Variable Small Semibol&quot;;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1074</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>Создание персонажа</string>
+    </property>
+   </widget>
+   <addaction name="menu"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
